@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>boh</title>
+  <script src="pixi.js"></script>
+  <style>
+    body {
+      background-image : url(bg.jpg);
+      overflow: hidden;
+    }
+    .info {
+      top     : 1;
+      left    : 1;
+      color   : white;
+      position: absolute;
+    }
+    .link {
+      top     : 1;
+      right   : 0;
+      position: absolute;
+    }
+    .link a {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <span class="info">BOOOM: <span id="counter">0</span></span>
+  <span class="link">
+    <a href="?sprite=slowpoke">1</a>
+    <a href="?sprite=goomy">2</a>
+    <a href="?sprite=ludicolo">3</a>
+    <a href="?sprite=magikarp">4</a>
+    <a href="?sprite=delibird">5</a>
+  </span>
+  <script src="game.js"></script>
+</body>
+</html>
